@@ -184,9 +184,9 @@ Este diagrama refleja cómo se **interconectan los servicios en la nube** y los 
 ---
 
 ---
-# 📁 Resumen de Archivos de Documentación (Informes FDXX)
+# 📁 Resumen de Archivos de Documentación 
 
-Esta tabla resume la documentación oficial generada para el proyecto, cumpliendo con los requisitos de entrega de formato (DOCX, PDF, y MD) para cada Fase de Documentación (FD).
+Esta tabla resume la documentación oficial generada para el proyecto, cumpliendo con los requisitos de entrega de formato (DOCX, PDF, y MD).
 
 | Código | Archivo Base | Formato DOCX (Fuente) | Formato PDF (Entrega) | Formato MD (GitHub) |
 |:------:|-----------------------------------------|:---------------------:|:---------------------:|:-------------------:|
