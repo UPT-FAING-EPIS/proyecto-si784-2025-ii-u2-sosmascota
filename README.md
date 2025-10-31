@@ -183,3 +183,16 @@ Este diagrama refleja cómo se **interconectan los servicios en la nube** y los 
 
 ---
 
+---
+# 📁 Resumen de Archivos de Documentación (Informes FDXX)
+
+Esta tabla resume la documentación oficial generada para el proyecto, cumpliendo con los requisitos de entrega de formato (DOCX, PDF, y MD) para cada Fase de Documentación (FD).
+
+| Código | Archivo Base | Formato DOCX (Fuente) | Formato PDF (Entrega) | Formato MD (GitHub) |
+|:------:|-----------------------------------------|:---------------------:|:---------------------:|:-------------------:|
+| **FD01** | Informe de Factibilidad | ✅ FD01-EPIS-Informe de Factibilidad.docx | ✅ FD01-EPIS-Informe de Factibilidad.docx.pdf | ✅ FD01-Informe-Factibilidad.md |
+| **FD02** | Informe de Visión | ✅ FD02-EPIS-Informe Vision.docx | ✅ FD02-EPIS-Informe Vision.pdf | ✅ FD02-Informe-Vision.md |
+| **FD03** | Informe de Especificación de Requerimientos | ✅ FD03-EPIS-Informe Especificación Requerimien....docx | ✅ FD03-EPIS-Informe Especificación Requerimien....pdf | ✅ FD03-EPIS-Informe Especificación Requerimien....md |
+| **FD04** | Informe de Arquitectura de Software | ✅ FD04-Informe Arquitectura de Software.docx | ✅ FD04-Informe Arquitectura de Software.pdf | ✅ FD04-Informe Arquitectura de Software.md |
+| **FD05** | Informe Proyecto Final | ✅ FD05-Informe ProyectoFinal.docx | ✅ FD05-Informe ProyectoFinal.pdf | ✅ FD05-Informe ProyectoFinal.md |
+
