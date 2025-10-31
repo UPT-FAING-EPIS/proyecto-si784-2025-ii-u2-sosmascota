@@ -39,6 +39,13 @@ Brindar una solución tecnológica moderna y accesible que mejore la **efectivid
 | **Diseño UI/UX** | Material Design 3 + Lottie Animations |
 
 ---
+#  FD02 – Wiki y el RoadMap
+📘 **Wiki del Proyecto:**  
+➡️ [Home](https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-sosmascota/wiki)  
+➡️ [Roadmap](https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-sosmascota/wiki/Roadmap)  
+➡️ [Tecnologías](https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-sosmascota/wiki/Tecnologias)  
+
+---
 # 🧠 FD03 – Historias de Usuario, Criterios de Aceptación y Escenarios de Prueba (TensorFlow Lite)
 
 Este documento presenta las **historias de usuario**, **criterios de aceptación** y **escenarios de prueba** del módulo de **TensorFlow Lite (TFLite)** utilizado en la aplicación **SOS Mascota Tacna**, específicamente en las funciones de **reporte de mascota** y **chat entre usuarios**.
@@ -104,9 +111,3 @@ Esto mejora la rapidez del análisis y optimiza la interacción entre usuarios a
 
 ---
 
-
-📘 **Wiki del Proyecto:**  
-➡️ [Home](https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-sosmascota/wiki)  
-➡️ [Roadmap](https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-sosmascota/wiki/Roadmap)  
-➡️ [Tecnologías](https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-sosmascota/wiki/Tecnologias)  
-➡️ [FD03 – Historias de Usuario y Escenarios de Prueba](https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-sosmascota/wiki/FD03-Historias-de-Usuario)
