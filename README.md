@@ -103,11 +103,83 @@ Cuando el modelo ejecuta la comparación,
 Entonces la similitud es menor al 50% y el sistema no muestra ninguna alerta.
 
 ---
+## 🧠 FD04 – Diagrama de caso de uso - Diagrama de Secuencia - Diagrama de clases - Diagrama de despliegue - Diagrama de infraestructura
+---
 
-## 🧾 Conclusión
+### 🧩 Diagrama de Casos de Uso General
 
-Los modelos **TensorFlow Lite** integrados en **SOS Mascota Tacna** permiten realizar clasificación e identificación visual directamente en el dispositivo, sin necesidad de conexión constante a Internet.  
-Esto mejora la rapidez del análisis y optimiza la interacción entre usuarios al detectar coincidencias de forma automática y eficiente.
+Muestra las interacciones principales entre los actores (**Usuario**, **Administrador** y **Visitante**) con las funciones del sistema.
+
+![Diagrama de Casos de Uso](media/diagrama_casos_usos.png)
+
+---
+
+### 🐾 HU01 – Reportar Mascota Perdida (Clasificación con TFLite)
+
+Representa el flujo de registro de un reporte de mascota.  
+El sistema procesa la imagen con el modelo `animales.tflite` para identificar si es perro o gato y luego guarda la información en Firestore.
+
+![Secuencia HU01 - Reportar Mascota](media/secuencia_1.png)
+
+---
+
+### 💬 HU02 – Iniciar Chat entre Usuarios desde un Reporte
+
+Cuando un usuario visualiza un reporte, puede iniciar un chat con el reportante.  
+El sistema crea o reutiliza una conversación, guarda los mensajes en Firestore y envía notificaciones push.
+
+![Secuencia HU02 - Chat entre Usuarios](media/secuencia_2.png)
+
+---
+
+### 🤖 HU03 – Implementar Algoritmo de Matching (TFLite)
+
+Muestra cómo el sistema utiliza el modelo `extractor_animales.tflite` para generar embeddings y comparar imágenes, identificando coincidencias con un umbral de similitud mayor o igual al 85%.
+
+![Secuencia HU03 - Algoritmo de Matching](media/secuencia_3.png)
+
+
+---
+### 🧩 Diagrama de Clases – Estructura Lógica del Sistema
+
+Representa las clases principales del sistema **SOS Mascota Tacna**.
+
+![Diagrama de Clases](media/diagrama_clases.png)
+
+---
+
+### 🧱 Diagrama de Arquitectura 
+
+Este diagrama muestra la **distribución de la arquitectura del sistema movil**
+
+![Diagrama de Arquitectura](media/diagrama_arquitectura.png)
+
+---
+### 🌐 Diagrama de Despliegue
+
+![Diagrama de despliegue](media/diagrama_despliegue.png)
+
+---
+### 🌐 Diagrama de Infraestructura – Servicios y Comunicación
+
+Este diagrama refleja cómo se **interconectan los servicios en la nube** y los recursos locales que componen la infraestructura del proyecto.
+
+![Diagrama de Infraestructura](media/diagrama_infraestructura.png)
+
+---
+
+### 🧾 Resumen Final – FD04
+
+| Nº | 🧩 Tipo de Diagrama | 📁 Archivo | 📖 Descripción Breve |
+|:--:|----------------------|-------------|----------------------|
+| 1️⃣ | **Diagrama de Casos de Uso General** | `diagrama_casos_usos.png` | Representa las interacciones entre actores (usuario, visitante, administrador) y las funciones principales del sistema. |
+| 2️⃣ | **Diagrama de Secuencia HU01 – Reportar Mascota Perdida** | `secuencia_1.png` | Muestra el flujo para registrar una mascota perdida con procesamiento de imagen mediante IA local (TFLite). |
+| 3️⃣ | **Diagrama de Secuencia HU02 – Iniciar Chat entre Usuarios** | `secuencia_2.png` | Detalla la comunicación entre un usuario visitante y el reportante a través del chat en Firestore. |
+| 4️⃣ | **Diagrama de Secuencia HU03 – Algoritmo de Matching (TFLite)** | `secuencia_3.png` | Explica el proceso de comparación de imágenes mediante embeddings generados por TensorFlow Lite. |
+| 5️⃣ | **Diagrama de Clases – Estructura Lógica del Sistema** | `diagrama_clases.png` | Define las entidades principales (`Usuario`, `ReporteMascota`, `Chat`, `Mensaje`, etc.) y sus relaciones con los servicios Firebase. |
+| 6️⃣ | **Diagrama de Arquitectura – MVVM** | `diagrama_arquitectura.png` | Describe la arquitectura por capas del sistema móvil basada en el patrón MVVM (View, ViewModel, Model, Servicios). |
+| 7️⃣ | **Diagrama de Despliegue Total (Firebase, TFLite, OSM)** | `diagrama_despliegue.png` | Muestra la distribución física de componentes entre la app Flutter, Firebase Cloud y los módulos locales de IA y mapas. |
+| 8️⃣ | **Diagrama de Infraestructura – Servicios y Comunicación** | `diagrama_infraestructura.png` | Ilustra las capas tecnológicas y la comunicación entre Flutter SDK, Firebase, TensorFlow Lite y OpenStreetMap. |
 
 ---
 
